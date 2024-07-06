@@ -1,0 +1,13 @@
+[package]
+name = "pdf_extractor"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+expect = "0.0.1"
+pdf-extract = "0.7.2"
+regex="1.9.6"
+walkdir = "2.4.0"
